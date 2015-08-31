@@ -5,7 +5,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.leonardoperez.v3.Menuprincipal"
-    android:id="@+id/enohsa"
+    android:background="@drawable/ellashacen"
+
+        android:id="@+id/enohsa"
     >
 
     <Button
@@ -104,6 +106,8 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:layout_above="@+id/BT_Descarga_Uno"
-            android:layout_centerInParent="true" />-->
+            android:layout_centerInParent="true"
+            android:visibility="invisible"
+            android:focusableInTouchMode="false" />-->
 
 </RelativeLayout>

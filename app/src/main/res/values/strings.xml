@@ -28,5 +28,6 @@
     <string name="title_activity_my_glrenderer">MyGLRenderer</string>
     <string name="title_activity_my_glsurface_view">MyGLSurfaceView</string>
     <string name="title_activity_loginphp">loginphp</string>
+    <string name="title_activity_sprite">sprite</string>
 
 </resources>
