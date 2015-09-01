@@ -190,6 +190,38 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Menu_Principal_Uno"
+            android:label="@string/title_activity_menu__principal__uno"
+            android:parentActivityName=".loginActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.leonardoperez.v3.loginActivity" />
+        </activity>
+        <activity
+            android:name=".menu_principal_dos"
+            android:label="@string/title_activity_menu_principal_dos"
+            android:parentActivityName=".loginActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.leonardoperez.v3.loginActivity" />
+        </activity>
+        <activity
+            android:name=".menu_principal_tres"
+            android:label="@string/title_activity_menu_principal_tres"
+            android:parentActivityName=".loginActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.leonardoperez.v3.loginActivity" />
+        </activity>
+        <activity
+            android:name=".menu_principal_cuatro"
+            android:label="@string/title_activity_menu_principal_cuatro"
+            android:parentActivityName=".loginActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.leonardoperez.v3.loginActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -29,5 +29,9 @@
     <string name="title_activity_my_glsurface_view">MyGLSurfaceView</string>
     <string name="title_activity_loginphp">loginphp</string>
     <string name="title_activity_sprite">sprite</string>
+    <string name="title_activity_menu__principal__uno">Menu_Principal_Uno</string>
+    <string name="title_activity_menu_principal_dos">menu_principal_dos</string>
+    <string name="title_activity_menu_principal_tres">menu_principal_tres</string>
+    <string name="title_activity_menu_principal_cuatro">menu_principal_cuatro</string>
 
 </resources>

@@ -4,10 +4,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-
     tools:context="com.example.leonardoperez.v3.Menuprincipal"
-
-    android:background="@color/FondoActivity">
+    android:background="@drawable/">
 
 
     <Button
@@ -25,16 +23,6 @@
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="114dp" />
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/ellashacen"
-        android:layout_centerHorizontal="true"
-        android:layout_alignBottom="@+id/BT_Descarga_Uno"
-        >
 
-    </LinearLayout>
 
 </RelativeLayout>
