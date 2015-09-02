@@ -12,9 +12,9 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ellas hacen"
+        android:text="Ellas haceno"
         android:id="@+id/BT_Descarga_Uno"
-        android:onClick="Descarga_Uno"
+        android:onClick="Menu_principal_Usuario1"
         android:drawableLeft="@mipmap/gota2"
         android:drawableRight="@mipmap/gota2"
         android:layout_alignWithParentIfMissing="false"
