@@ -5,16 +5,16 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.leonardoperez.v3.Menuprincipal"
-    android:background="@drawable/mountain"
+    android:background="@drawable/ellas"
     android:id="@+id/enohsa"
     >
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ellas haceno"
+        android:text="Ellas hacen"
         android:id="@+id/BT_Descarga_Uno"
-        android:onClick="Menu_principal_Usuario1"
+        android:onClick="Descarga_Uno"
         android:drawableLeft="@mipmap/gota2"
         android:drawableRight="@mipmap/gota2"
         android:layout_alignWithParentIfMissing="false"
@@ -95,21 +95,19 @@
         android:layout_above="@+id/BT_Descarga_Uno"
         android:id="@+id/linearLayout">
 
+    </LinearLayout>
+
+
+
         <VideoView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:id="@+id/webView"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:layout_above="@+id/BT_Descarga_Uno"
             android:layout_centerInParent="true"
             android:visibility="invisible"
-            android:focusableInTouchMode="false" />
-    </LinearLayout><![CDATA[
+            android:focusableInTouchMode="false" />-->
 
-
-
-        -->
-
-]]>
 </RelativeLayout>
